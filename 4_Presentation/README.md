@@ -1,3 +1,3 @@
 # Presentation
 
-**[Slides](https://www.canva.com/design/DAG9piAVdYM/A1ScN9h496dLTcRYhE7szQ/edit?utm_content=DAG9piAVdYM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+**[Slides](https://github.com/TobiasGrimm18/ml-project-template/blob/main/4_Presentation/Team%201%20-%20Linear%20Model%20and%20Neural%20Net.pdf)**
