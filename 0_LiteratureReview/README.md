@@ -18,7 +18,8 @@ Models for Object Detection ?]
   - **Outcomes**:
     Results show that more data can improve detection performance only with proper regularization and clean training data, but performance saturates quickly for standard mixture models,       while compositional part-based models (DPM/RMP) achieve significantly higher gains through parameter sharing and synthesizing unseen configurations
     
-  - **Relation to the Project**: For the training data in the linear regression model 
+  - **Relation to the Project**:
+  Our project relates to this study because both show that accurate predictions depend strongly on proper model tuning and regularization, since using more training data without adjusting      parameters can lead to overfitting and reduced performance.
 
 - **Source 2**: [Title of Source 2]
 
