@@ -1,8 +1,8 @@
-# [Your Project Title Here]
+# [Predicting Bakery Sales using linear regression and neural nets Group 1]
 
-## Repository Link
+## Repositor Link
 
-[https://github.com/your_username/your_project_name]
+[https://github.com/mofreund99/TeamCPH.git]
 
 ## Description
 
