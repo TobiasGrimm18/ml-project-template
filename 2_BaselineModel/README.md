@@ -10,7 +10,7 @@
 
 ### Model Performance
 - **Evaluation Metric:** [R²]
-- **Performance Score:** [e.g., 85% accuracy, F1-score of 0.78, MSE of 0.15]
+- **Performance Score:** [83.4%]
 - **Cross-Validation Score:** [Mean and standard deviation of CV scores, e.g., 0.82 ± 0.03]
 
 ### Evaluation Methodology
