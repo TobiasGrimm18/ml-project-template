@@ -73,7 +73,7 @@ Description: Natural logarithm of revenue.
 
 ## Exploratory Data Analysis
 
-The exploratory data analysis is conducted in the [exploratory_data_analysis.ipynb](exploratory_data_analysis.ipynb) notebook, exploratory_data_analysis_Team1.ipynb which includes:
+The exploratory data analysis is conducted in the [exploratory_data_analysis.ipynb](https://github.com/TobiasGrimm18/ml-project-template/blob/main/1_DatasetCharacteristics/exploratory_data_analysis_Team1.ipynb) notebook, exploratory_data_analysis_Team1.ipynb which includes:
 
 - Data loading and initial inspection
 - Statistical summaries and distributions
