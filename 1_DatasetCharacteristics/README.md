@@ -9,8 +9,8 @@
 - **Dataset Owner/Contact:** [If applicable, provide contact information for private datasets]
 
 ### Dataset Characteristics
-- **Number of Observations:** [Total number of samples/records in your dataset. For time series data, also specify the temporal resolution (e.g., daily, hourly, etc.)]
-- **Number of Features:** [Total number of features in your dataset]
+- **Number of Observations:** [9292 samples ]
+- **Number of Features:** [ 18 features ]
 
 ### Target Variable/Label
 - **Label Name:** [Name of the target variable/column]
