@@ -5,12 +5,12 @@
 ## Dataset Information
 
 ### Dataset Source
-- **Dataset Link:** [Provide a direct link to your dataset. If the dataset is private, explain the reason and provide contact information for the dataset owner]
-- **Dataset Owner/Contact:** [If applicable, provide contact information for private datasets]
+- **Dataset Link:** [https://github.com/mofreund99/TeamCPH/blob/cf92ab3dd288d89a6d61c81a1105a22519ccda0e/model_df.csv]
+- **Dataset Owner/Contact:** [If applicable, provide contact information for private dataset ]
 
 ### Dataset Characteristics
-- **Number of Observations:** [Total number of samples/records in your dataset. For time series data, also specify the temporal resolution (e.g., daily, hourly, etc.)]
-- **Number of Features:** [Total number of features in your dataset]
+- **Number of Observations:** [ 9292 samples]
+- **Number of Features:** [ 18 Features ]
 
 ### Target Variable/Label
 - **Label Name:** [Name of the target variable/column]
