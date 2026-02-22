@@ -13,11 +13,11 @@
 - **Number of Features:** [ 18 features ]
 
 ### Target Variable/Label
-- **Label Name:** [Name of the target variable/column]
-- **Label Type:** [Classification/Regression/Clustering/Other]
-- **Label Description:** [What does this label represent? What is the prediction task?]
-- **Label Values:** [For classification: list of classes and their meanings. For regression: range of values. For other tasks: describe the label structure]
-- **Label Distribution:** [Brief description of class balance for classification or value distribution for regression]
+- **Label Name:** [Umsatz]
+- **Label Type:** [Regression]
+- **Label Description:** [Umsatz represents the daily revenue (sales value) for a given product category (Warengruppe). The prediction task is to forecast daily revenue based on temporal, seasonal, event-based, and lagged revenue features.]
+- **Label Values:** [countinous variable, range: 7.05 - 1879.46, mean: 206.65, standard deviation: 144.36]
+- **Label Distribution:** [The distribution is right-skewed, with most revenues concentrated below 300 and some high-value outliers reaching up to ~1879. This suggests occasional peak sales days]
 
 ### Feature Description
 [Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
