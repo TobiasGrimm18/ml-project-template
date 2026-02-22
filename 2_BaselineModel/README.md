@@ -5,11 +5,11 @@
 ## Baseline Model Results
 
 ### Model Selection
-- **Baseline Model Type:** [e.g., Random Forest, Logistic Regression, Linear Regression, Naive Bayes, etc.]
-- **Rationale:** [Brief explanation of why this model was chosen as baseline]
+- **Baseline Model Type:** [Linear Regression]
+- **Rationale:** [Linear Regression was selected as the baseline model because it is a simple, interpretable, and widely used algorithm for regression tasks. Additionally, its coefficients allow direct interpretation of how each feature influences the target variable, which supports transparency and business decision-making.]
 
 ### Model Performance
-- **Evaluation Metric:** [e.g., Accuracy, F1-Score, Precision, Recall, MSE, MAE, R², etc.]
+- **Evaluation Metric:** [R²]
 - **Performance Score:** [e.g., 85% accuracy, F1-score of 0.78, MSE of 0.15]
 - **Cross-Validation Score:** [Mean and standard deviation of CV scores, e.g., 0.82 ± 0.03]
 
