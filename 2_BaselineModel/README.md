@@ -56,7 +56,7 @@ It provides reliable quantitative evidence of:
 
 - Which events drive revenue spikes
 
-- - How strong weekend effects are
+- How strong weekend effects are
 
 How persistent daily sales patterns are]
 
