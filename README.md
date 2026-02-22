@@ -40,4 +40,4 @@
 
 ## Cover Image
 
-![Project Cover Image](CoverImage/cover_image.png)
+![Project Cover Image](https://github.com/TobiasGrimm18/ml-project-template/blob/6d6cc514746ac6a2fbb9bc49502a6f042c04b1ec/CoverImage/Coverimage.png)
