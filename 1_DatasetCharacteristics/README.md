@@ -68,9 +68,8 @@ Description: Second harmonic sine term (captures more complex seasonal patterns)
 
 5. Transformed Target Feature
 Feature 12 (log_Umsatz)
-Range: 2.09 – 7.54
 Description: Natural logarithm of revenue.
-Purpose: Reduces skewness and variance; may be used as alternative regression target.
+
 
 ## Exploratory Data Analysis
 
