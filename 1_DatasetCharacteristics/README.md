@@ -20,12 +20,57 @@
 - **Label Distribution:** [The distribution is right-skewed, with most revenues concentrated below 300 and some high-value outliers reaching up to ~1879. This suggests occasional peak sales days]
 
 ### Feature Description
-[Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
+[The dataset contains 18 columns and 9,292 observations. All features are numeric]
 
-**Example format:**
-- **Feature 1 (feature_name):** [Description of what this feature represents, data type, and any relevant details]
-- **Feature 2 (feature_name):** [Description of what this feature represents, data type, and any relevant details]
-- **Feature Group (group_name):** [Description of a group of related features]
+1. Revenue-Based Features
+   
+Feature 1 (Revenue_lag1): Description: Revenue from the previous day (t-1), Range: 7.05 – 1879.46, Purpose: Captures short-term temporal dependency (autocorrelation).
+
+Feature 2 (Revenue_lag7): Description: Revenue from 7 days prior (t-7), Range: 7.05 – 1879.46, Purpose: Captures weekly seasonality patterns.
+
+2. Product Category Features
+   
+Feature 3 (Warengruppe), 
+Range: 1 – 6, 
+Description: Categorical identifier for product group. Feature Group (WG_2, WG_3, WG_4, WG_5, WG_6), One-hot encoded product categories, WG_2 = 1 → observation belongs to product group 2 etc. Warengruppe = 1 serves as the reference category.
+
+3. Calendar & Event Features
+Feature 4 (holiday): 
+Description: Indicates whether the day is a public holiday.
+
+Feature 5 (IsWeekend):
+Description: 1 if Saturday/Sunday, otherwise 0.
+
+Feature 6 (IsNewYears):
+Description: 1 if the date is New Year’s Day.
+
+Feature 7 (Easter):
+Description: 1 if the day is during Easter period.
+
+Feature 8 (KielerWoche):
+Description: 1 if the day falls within Kieler Woche (regional event), capturing local event-driven demand spikes.
+
+4. Seasonal (Cyclical) Features
+
+These features encode annual seasonality using sine/cosine transformations to preserve cyclical structure.
+
+Feature 9 (sin_1y):
+Range: -1 to 1
+Description: First harmonic sine transformation of yearly cycle.
+
+Feature 10 (cos_1y)
+Range: -1 to 1
+Description: First harmonic cosine transformation of yearly cycle.
+
+Feature 11 (sin_2y)
+Range: -1 to 1
+Description: Second harmonic sine term (captures more complex seasonal patterns).
+
+5. Transformed Target Feature
+Feature 12 (log_Umsatz)
+Range: 2.09 – 7.54
+Description: Natural logarithm of revenue.
+Purpose: Reduces skewness and variance; may be used as alternative regression target.
 
 ## Exploratory Data Analysis
 
