@@ -34,7 +34,7 @@
 
 1. **[Literature Review](0_LiteratureReview)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/exploratory_data_analysis_Team1.ipynb)**
-3. **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**
+3. **[Baseline Model](2_BaselineModel)**
 4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
 5. **[Presentation](4_Presentation)**
 
