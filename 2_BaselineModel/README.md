@@ -61,4 +61,4 @@ It provides reliable quantitative evidence of:
 How persistent daily sales patterns are]
 
 ## Next Steps
-This baseline model serves as a reference point for evaluating more sophisticated models in the [Model Definition and Evaluation](../3_Model/README.md) phase.
+This baseline model serves as a reference point for evaluating more sophisticated models in the [Model Definition and Evaluation](2_BaselineModel/baseline_model.ipynb) phase.
