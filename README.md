@@ -17,13 +17,13 @@
 
 **Model Comparison**
 - Baseline Performance: MAE 105.10, RMSE 147.10, MAPE 63.83%, R² (log-space) 0.0373
-- Improvement Over Baseline: MAE ↓65.2%, RMSE ↓56.7%, MSE ↓81.3% (NN vs baseline linear Temp+KielerWoche)
+- Improvement Over Baseline: MAE improved by 65.2%, RMSE improved by 56.7%, MSE improved by 81.3%
 
 **Key Insights**
-- Most Important Features: Revenue_lag1, Revenue_lag7, IsWeekend, KielerWoche, Temperatur (plus yearly seasonality terms)
-- Model Strengths: Captures nonlinear interactions and materially reduces absolute/relative error versus baseline
-- Model Limitations: Lower interpretability; sensitive to scaling/split consistency; MAPE can become unstable around near-zero true values
-- Business Impact: Better forecast accuracy supports tighter staffing, production planning, and event-day inventory decisions, with fewer large revenue.
+Most Important Features: Revenue_lag1, Revenue_lag7, IsWeekend, KielerWoche, Temperatur
+Model Strengths: Captures nonlinear feature interactions; substantially lowers forecast error vs baseline
+Model Limitations: Less interpretable than linear models; sensitive to split consistency and scaling; MAPE can be unstable near zero true values
+Business Impact: Better forecasts improve staffing, procurement, and event-day production planning while reducing costly over/under-production decisions
 
 ## Documentation
 
