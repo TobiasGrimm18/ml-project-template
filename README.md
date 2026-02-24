@@ -30,7 +30,7 @@
 1. **[Literature Review](0_LiteratureReview)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/exploratory_data_analysis_Team1.ipynb)**
 3. **[Baseline Model](2_BaselineModel)**
-4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
+4. **[Model Definition and Evaluation](https://github.com/TobiasGrimm18/ml-project-template/blob/c22d60abe75b14558b83dfb9690b1f14b5d84a32/3_Model/model_definition_evaluation%20(3).ipynb)**
 5. **[Presentation](4_Presentation)**
 
 ## Cover Image
