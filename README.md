@@ -20,10 +20,10 @@
 - Improvement Over Baseline: MAE improved by 65.2%, RMSE improved by 56.7%, MSE improved by 81.3%
 
 **Key Insights**
-Most Important Features: Revenue_lag1, Revenue_lag7, IsWeekend, KielerWoche, Temperatur
-Model Strengths: Captures nonlinear feature interactions; substantially lowers forecast error vs baseline
-Model Limitations: Less interpretable than linear models; sensitive to split consistency and scaling; MAPE can be unstable near zero true values
-Business Impact: Better forecasts improve staffing, procurement, and event-day production planning while reducing costly over/under-production decisions
+- Most Important Features: Revenue_lag1, Revenue_lag7, IsWeekend, KielerWoche, Temperatur
+- Model Strengths: Captures nonlinear feature interactions; substantially lowers forecast error vs baseline
+- Model Limitations: Less interpretable than linear models; sensitive to split consistency and scaling; MAPE can be unstable near zero true values
+- Business Impact: Better forecasts improve staffing, procurement, and event-day production planning while reducing costly over/under-production decisions
 
 ## Documentation
 
