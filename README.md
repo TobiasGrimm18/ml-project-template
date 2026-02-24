@@ -30,7 +30,7 @@
 1. **[Literature Review](0_LiteratureReview)**
 2. **[Dataset Characteristics](https://github.com/TobiasGrimm18/ml-project-template/tree/a96ba4ad1275941b1bbb1206fdccb87999811eb6/1_DatasetCharacteristics)**
 3. **[Baseline Model](https://github.com/TobiasGrimm18/ml-project-template/tree/c22d60abe75b14558b83dfb9690b1f14b5d84a32/2_BaselineModel)**
-4. **[Model Definition and Evaluation](https://github.com/TobiasGrimm18/ml-project-template/blob/c22d60abe75b14558b83dfb9690b1f14b5d84a32/3_Model/model_definition_evaluation%20(3).ipynb)**
+4. **[Model Definition and Evaluation](https://github.com/TobiasGrimm18/ml-project-template/tree/0fd9507e33cb0f3e7f6a844cb83c0ccb969c1d1e/3_Model)**
 5. **[Presentation](4_Presentation)**
 
 ## Cover Image
