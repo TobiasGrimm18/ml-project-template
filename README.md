@@ -5,30 +5,25 @@
 [https://github.com/mofreund99/TeamCPH.git]
 
 ## Description
+- Revenue forecasting project for bakery product groups using daily sales plus external signals (weather and event/calendar effects), comparing a simple linear baseline to an MLP neural network.
 
-[Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
+**Task Type**
+- Regression
 
-### Task Type
+**Results Summary**
+- Best Model: Neural Net (MLP)
+- Evaluation Metric: RMSE (primary for cross-model comparison), with MAE/MAPE as supporting metrics
+- Best Model Performance: MAE 36.62, RMSE 63.64, MSE 4049.52, Validation MAPE 24.60%
 
-[Image Classification / Chatbot / Regression / Clustering / Other]
+**Model Comparison**
+- Baseline Performance: MAE 105.10, RMSE 147.10, MAPE 63.83%, R² (log-space) 0.0373
+- Improvement Over Baseline: MAE ↓65.2%, RMSE ↓56.7%, MSE ↓81.3% (NN vs baseline linear Temp+KielerWoche)
 
-### Results Summary
-
-#### Best Model Performance
-- **Best Model:** [Name and type of the best-performing model"]
-- **Evaluation Metric:** [Primary metric used, e.g., Accuracy, F1-Score, MSE, MAE]
-- **Final Performance:** [Best score achieved, e.g., 95% accuracy, F1-score of 0.87, MSE of 0.12]
-
-#### Model Comparison
-- **Baseline Performance:** [Baseline model performance for comparison]
-- **Improvement Over Baseline:** [Quantitative improvement, e.g., "+12% accuracy", "25% reduction in MSE"]
-- **Best Alternative Model:** [Second-best model and its performance]
-
-#### Key Insights
-- **Most Important Features:** [Top 3-5 features that drive model performance]
-- **Model Strengths:** [What the model does well]
-- **Model Limitations:** [Known limitations and failure cases]
-- **Business Impact:** [Practical implications of the model performance]
+**Key Insights**
+- Most Important Features: Revenue_lag1, Revenue_lag7, IsWeekend, KielerWoche, Temperatur (plus yearly seasonality terms)
+- Model Strengths: Captures nonlinear interactions and materially reduces absolute/relative error versus baseline
+- Model Limitations: Lower interpretability; sensitive to scaling/split consistency; MAPE can become unstable around near-zero true values
+- Business Impact: Better forecast accuracy supports tighter staffing, production planning, and event-day inventory decisions, with fewer large revenue.
 
 ## Documentation
 
