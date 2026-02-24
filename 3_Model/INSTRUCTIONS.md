@@ -20,8 +20,8 @@ Provide information on the following issues:
 
 - **Comparative Analysis**
 
-Follow the instructions provided in brackets in the [Jupyter/Colab notebook](model_definition_evaluation.ipynb) in this folder.
+Follow the instructions provided in brackets in the [Jupyter/Colab notebook](m3_Model/model_definition_evaluation_Team1) in this folder.
 
 ## Submission
 
-Complete the [Jupyter/Colab notebook](model_definition_evaluation.ipynb) to conduct your model implementation and evaluation.
+Complete the [Jupyter/Colab notebook](3_Model/model_definition_evaluation_Team1) to conduct your model implementation and evaluation.
