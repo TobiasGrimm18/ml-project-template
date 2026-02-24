@@ -1,6 +1,6 @@
 # Dataset Characteristics
 
-**[Notebook](https://github.com/TobiasGrimm18/ml-project-template/blob/main/1_DatasetCharacteristics/exploratory_data_analysis_Team1.ipynb)**
+**[Notebook](https://github.com/TobiasGrimm18/ml-project-template/blob/c22d60abe75b14558b83dfb9690b1f14b5d84a32/2_BaselineModel/baseline_model.ipynb)
 
 ## Dataset Information
 
